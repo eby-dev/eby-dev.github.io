@@ -184,7 +184,7 @@
                   <!-- Personal Information -->
                   <div class="row">
                     <div class="col-xs-12 col-sm-7">
-                      <p>A Mobile Developer with 2 years of experience in Android and Flutter application development. Proficient in Java, Kotlin, and Dart, with in-depth experience in building RESTful APIs-based applications and integrating technologies such as face recognition and online payment systems. I have worked on various industry projects, including SaaS, Attendance Applications, Healthcare Services, and etc. I am eager to continue growing in mobile application development and am interested in contributing to the creation of innovative and efficient technology solutions.</p>
+                      <p>Mobile Developer with over 3 years of professional experience specializing in Android native development (Java/Kotlin) and Flutter. Experienced in building, maintaining, and improving production-ready mobile applications for internal teams and end users, with a strong focus on performance and clean architecture. Currently working in the real estate industry, developing customer-facing and internal applications for agents and visitors, handling feature implementation, system maintenance, and continuous improvement while growing toward a senior-level mobile engineering role.</p>
                     </div>
 
                     <div class="col-xs-12 col-sm-5">
@@ -235,6 +235,18 @@
                       </div>
 
                       <div class="timeline timeline-second-style clearfix">
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">Nov 2024 - Now</h5>
+                            <span class="item-company">Brighton Real Estate</span>
+                          </div>
+                          <div class="divider"></div>
+                          <div class="right-part">
+                            <h4 class="item-title">Android Developer</h4>
+                            <p>Surabaya, East Java, Indonesia</p>
+                          </div>
+                        </div>
+
                         <div class="timeline-item clearfix">
                           <div class="left-part">
                             <h5 class="item-period">July 2023 - October 2024</h5>
@@ -493,7 +505,7 @@
                     <div class="col-xs-12 col-sm-4">
                       <div class="lm-info-block gray-default">
                         <i class="lnr lnr-map-marker"></i>
-                        <h4>Pasuruan, Indonesia</h4>
+                        <h4>East Java, Indonesia</h4>
                         <span class="lm-info-block-value"></span>
                         <span class="lm-info-block-text"></span>
                       </div>
@@ -510,12 +522,56 @@
 
                     <!-- Contact Form -->
                     <div class="col-xs-12 col-sm-8">
-                      <div id="map" class="map"></div>
+                      <div id="map" class="map oldForm" style="width:100%; height:250px;"></div>
                       <div class="block-title">
                         <h3>How Can I <span>Help You?</span></h3>
                       </div>
 
-                      <form id="contact_form" class="contact-form">
+                      <form
+                        action="https://formspree.io/f/xzbyzjlj"
+                        method="POST"
+                      >
+                        <div class="controls one-columns">
+                          <div class="fields clearfix">
+                            <div class="left-column">
+
+                              <!-- Email -->
+                              <div class="form-group form-group-with-icon">
+                                <input
+                                  type="email"
+                                  name="email"
+                                  class="form-control"
+                                  required
+                                >
+                                <label>Email Address</label>
+                                <div class="form-control-border"></div>
+                              </div>
+
+                              <!-- Message -->
+                              <div class="form-group form-group-with-icon">
+                                <textarea
+                                  name="message"
+                                  class="form-control"
+                                  rows="5"
+                                  required
+                                ></textarea>
+                                <label>Message</label>
+                                <div class="form-control-border"></div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <!-- Submit -->
+                          <input
+                            type="submit"
+                            class="button btn-send"
+                            value="Send Message"
+                          >
+                        </div>
+                      </form>
+
+                      <form id="contact_form" class="contact-form oldForm">
 
                         <div class="messages"></div>
 
@@ -549,6 +605,12 @@
                           <input id="submit_button_contact" type="submit" class="button btn-send" value="Send message">
                         </div>
                       </form>
+
+                      <style>
+                        .oldForm {
+                          display: none;
+                        }
+                      </style>
 
                       <script>
                         document.getElementById("submit_button_contact").addEventListener("click", function(event) {
@@ -613,7 +675,7 @@
 
     <script>
       function myMap() {
-          var myCenter = new google.maps.LatLng(-7.640622, 112.906478);
+          var myCenter = new google.maps.LatLng(-7.289777, 112.677317);
           var mapCanvas = document.getElementById("map");
           var mapOptions = { center: myCenter, zoom: 10 };
           var map = new google.maps.Map(mapCanvas, mapOptions);
@@ -621,7 +683,7 @@
           marker.setMap(map);
       }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLXpIYHjNzhWt7kQakIQqFxFd0NRgz8lM&callback=myMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDa7LFSySZcdbrkLsIVF-VLbPiTDXF95sI&callback=myMap" async defer></script>
     <script src="js/jquery.googlemap.js"></script>
     <script src="js/validator.js"></script>
     <script src="js/main.js"></script>
