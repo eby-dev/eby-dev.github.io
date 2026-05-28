@@ -2944,3 +2944,144 @@ blockquote {
   }
 }
 
+
+/* =============================================================
+   SPLIT THEME — Indigo Sidebar + White Content
+   ============================================================= */
+
+body {
+  background-color: #e8edf3;
+}
+
+.page-content {
+  background-color: #ffffff;
+  box-shadow: 0 25px 80px -10px rgba(30, 27, 75, 0.22);
+}
+
+/* Sidebar */
+.header {
+  background-color: #1e1b4b;
+  border-radius: 32px 0 0 32px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    background-color: #1e1b4b;
+    border-radius: 0;
+  }
+}
+
+.header-titles h4 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Nav pill + arrows */
+ul.main-menu,
+.lmpixels-arrows-nav {
+  background-color: #1e1b4b;
+  box-shadow: 0 4px 20px rgba(30, 27, 75, 0.35);
+}
+
+ul.main-menu a {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+ul.main-menu a.active,
+ul.main-menu a:hover {
+  color: #a5b4fc;
+}
+
+/* Content sections */
+.section-content,
+.single-page-content {
+  background-color: #ffffff;
+  color: #4b5563;
+}
+
+.section-content h2,
+.section-content h3,
+.section-content h4,
+.section-content h5,
+.section-content h6 {
+  color: #111827;
+}
+
+.section-content p {
+  color: #4b5563;
+}
+
+.page-title h2 {
+  color: #111827;
+}
+
+.block-title h3 {
+  color: #111827;
+}
+
+/* Timeline */
+.timeline-second-style .divider {
+  background-color: #e2e8f0;
+}
+
+.timeline-second-style .divider:after {
+  background-color: #ffffff;
+}
+
+.timeline-second-style .item-title {
+  color: #111827;
+}
+
+.timeline-second-style .item-period {
+  color: #64748b;
+}
+
+.timeline-second-style .item-company {
+  color: #6b7280;
+}
+
+.timeline-second-style .right-part p,
+.timeline-second-style .right-part p > * {
+  color: #4b5563;
+}
+
+/* Skills chips on white */
+.knowledges li {
+  color: #6366f1;
+}
+
+/* Portfolio */
+.portfolio-grid figure .name {
+  color: #111827;
+}
+
+.portfolio-grid figure .portfolio-desc {
+  color: #6b7280;
+}
+
+.portfolio-filters li a {
+  color: #6b7280;
+}
+
+.portfolio-filters li.active a {
+  color: #6366f1;
+}
+
+/* Info list */
+.info-list ul li {
+  color: #374151;
+}
+
+/* Certificate borders */
+.certificate-item {
+  border-color: #e2e8f0;
+}
+
+/* Scrollbar */
+.ps > .ps__scrollbar-y-rail > .ps__scrollbar-y {
+  background-color: #cbd5e1;
+}
+
+.ps:hover > .ps__scrollbar-y-rail:hover {
+  background-color: #e2e8f0;
+}
+
