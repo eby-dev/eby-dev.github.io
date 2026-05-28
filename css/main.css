@@ -1651,6 +1651,13 @@ textarea.form-control, textarea.form-control:focus {
 .portfolio-grid figure:hover .category {
   opacity: 1;
 }
+.portfolio-grid figure .portfolio-desc {
+  font-size: 12px;
+  color: #aaa;
+  line-height: 1.5em;
+  margin: 8px 0 4px;
+  display: block;
+}
 /* --- End of Portfolio --- */
 
 /* --- Blog --- */
